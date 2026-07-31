@@ -1,8 +1,26 @@
 aid: ooda-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ooda-health.png
 name: Ooda Health
-description: 'Ooda Health is a company surfaced as a portfolio company of threshold-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'OODA Health is a healthcare technology company modernizing the business
+  of healthcare by automating administration and payments between payers, providers,
+  and patients. Its flagship platform, OODAPay, coordinates billing across all parties
+  to give patients a single consolidated bill while reducing provider administrative
+  burden and bad debt; OODA Optic extends its analytics and administrative tooling.
+  OODA Health worked with payers and health systems including Anthem, CommonSpirit
+  Health, Blue Cross Blue Shield of Massachusetts and Arizona, Blue Shield of California,
+  and Hill Physicians Medical Group, and was acquired by Cedar. The company was backed
+  by Threshold Ventures. No public API, developer portal, or SDK surface has been identified.'
 url: https://raw.githubusercontent.com/api-evangelist/ooda-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Payments
+- Health Insurance
+- Medical Billing
+- Revenue Cycle Management
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ooda-health-domain-security.yml
 - type: Website
-  url: http://ooda-health.com/
+  url: https://ooda-health.com/
+- type: Blog
+  url: https://ooda-health.com/blog
+- type: PrivacyPolicy
+  url: https://ooda-health.com/privacy
+- type: TermsOfService
+  url: https://ooda-health.com/legal
+- type: Support
+  url: https://ooda-health.com/contact
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
