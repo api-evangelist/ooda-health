@@ -57,6 +57,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/cedar/
+  name: Cedar
+  x-relationship: acquired
+  x-evidence: "OODA Health worked with payers and health systems including Anthem, CommonSpirit Health, Blue Cross Blue Shield of Massachusetts and Arizona, Blue Shield of California, and Hill Physicians Medical Group, and was acquired by Cedar. The compa"
 - type: DomainSecurity
   url: security/ooda-health-domain-security.yml
 - type: Website
